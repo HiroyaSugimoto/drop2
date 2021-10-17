@@ -15,7 +15,6 @@ public class Drop2 extends Game {
         //LibGDXのデフォルトのArialフォントを使用
         font = new BitmapFont();
         this.setScreen(new MainMenuScreen(this));
-
     }
 
     public void render () {
